@@ -1,0 +1,60 @@
+{
+  "pages": [
+    
+	 {
+	      "path": "pages/FengMian/index",
+	      "style": {
+	        "navigationBarTitleText": "启动页"
+	      }
+	    },
+	
+	{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "主页"
+      }
+    },
+    {
+      "path": "pages/smartChargingHome/index",
+      "style": {
+        "navigationBarTitleText": "智能充电家用版"
+      }
+    },
+    {
+      "path": "pages/userCenter/home",
+      "style": {
+        "navigationBarTitleText": "用户中心"
+      }
+    },
+    {
+      "path": "pages/orderManagement/list",
+      "style": {
+        "navigationBarTitleText": "订单列表"
+      }
+    },
+    {
+      "path": "pages/orderManagement/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/addCharger/addCharger",
+      "style": {
+        "navigationBarTitleText": "添加充电桩"
+      }
+    },
+    {
+      "path": "pages/addVehicle/addVehicle",
+      "style": {
+        "navigationBarTitleText": "添加车辆"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "充电app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
