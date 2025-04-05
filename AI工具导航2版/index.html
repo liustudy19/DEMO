@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 你好陌生人，最近好吗?吃了吗您? -->
+     <!-- 不用看了就是普通的a标签 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易的AI工具导航</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://api.iconify.design/ri:ai-generate.svg" alt="AI Logo" width="32" height="32">
+                <span>AI导航</span>
+            </div>
+            <div class="menu">
+                <a href="#" class="active">开始对话</a>
+                <a href="#">使用方法</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" placeholder="输入问题,跳转DeepSeek或通义千问需要登录解答" class="search-input" id="ai-search">
+            <button class="search-btn">
+                <img src="https://api.iconify.design/material-symbols:search.svg" alt="搜索" width="24" height="24">
+            </button>
+            <div class="quick-links">
+                <a href="https://chat.deepseek.com" target="_blank">DeepSeek</a>
+                <span>|</span>
+                <a href="https://chat.qwen.ai" target="_blank">通义千问</a>
+                <br>
+                  <h2>(奈何实力不足，国外的都需要魔法不建议!)</h2> 
+            </div>
+        </div>
+
+         <!-- AI工具列表 -->
+         <div class="ai-tools">
+            <div id="tools-container">
+                <div id="tools-content">
+                    <!-- AI工具列表将由config.JS动态生成 -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 空白内容区域 -->
+        <div class="main-content layui-row layui-container layui-col-space16" id="divList">
+            <div class="layui-col-xs12 layui-col-sm8 layui-col-md9">
+                <div class="list-introduction layui-row">
+                    <div class="layui-col-xs6 layui-col-sm6 layui-col-md6" style="padding:10px;">
+                        <div class="layui-row layui-font-26" style="font-weight:bold;">
+                            Tongyi+DeepSeek服务
+                        </div>
+                        <div class="carousel-title">
+                            您自己服务体验把
+                        </div>
+                    </div>
+                    <div class="layui-col-xs6 layui-col-sm6 layui-col-md6">
+                        <div class="carousel-container">
+                            <img src="images/list-img-1.png" alt="假设展示">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
